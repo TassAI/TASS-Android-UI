@@ -37,18 +37,18 @@ You will need to clone this repository to a location on your development termina
 
 Once you have the repo, you will need to find the files in this folder located in [TASS-Android-UI](https://github.com/TASS-AI/TASS-Android-UI "TASS-Android-UI").
 
-# Contributing
-Please read **CONTRIBUTING.md** for details on our code of conduct, and the process for submitting pull requests to us.
-
 # Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+We use SemVer for versioning. For the versions available, see the tags on this repository. You can keep up to date with release information in the [RELEASES](https://github.com/TASS-AI/TASS-Android-UI/blob/master/RELEASES.md "RELEASES") document.
+
+# Bugs/Issues 
+
+We use the repository [Issues](https://github.com/TASS-AI/TASS-Android-UI/issues "Issues") area to track bugs and general requests related to using this project. This allows management of issues in the project public and private Github Projects.
+
+# Contributing
+Please read [CONTRIBUTING](https://github.com/TASS-AI/TASS-Android-UI/blob/master/CONTRIBUTING.md "CONTRIBUTING") document for details on the code of conduct for this project, and the process for submitting pull requests.
 
 # License
-This project is licensed under the **MIT License** - see the **LICENSE.md** file for details
-
-# Bugs/Issues
-
-We use issues to track bugs and general requests related to using this project.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/TASS-AI/TASS-Android-UI/blob/master/LICENSE.md "LICENSE") document for details.
 
 # Author
 
