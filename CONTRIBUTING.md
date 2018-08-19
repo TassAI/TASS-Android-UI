@@ -8,10 +8,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
    build.
-2. Update the README.md with details of changes.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. Your pull request will be merged once approved.
+2. Update the core README.md with details of changes.
+3. Submit your pull request to the Upcoming Release specified in the core README.
+4. Provide a descriptive pull request title and description.
+5. Your pull request will be merged along with the next release.
 
 ## Code of Conduct
 
