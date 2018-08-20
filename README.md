@@ -37,13 +37,11 @@ You will need to clone this repository to a location on your development termina
 
 Once you have the repo, you will need to find the files in this folder located in [TASS-Android-UI](https://github.com/TASS-AI/TASS-Android-UI "TASS-Android-UI").
 
-Once the application has opened up, you can enter your credentials into the login form and submit to the iotJumpWay **TASS API**, although this is the current scope of the tutorial, this README will be updated with progress as and when.
-
 # Start Android Application
 
 [![Start TASS Android UI](images/ASProject.jpg)](https://github.com/TASS-AI/TASS-Android-UI)
 
-Plug your Android device into your development computer and allow the permissions requested, then run the application. Once you meet the login page enter your iotJumpWay app credentials.
+Plug your Android device into your development computer and allow the permissions requested, then run the application. Once the application has opened up, you can enter your credentials into the login form and submit to the iotJumpWay **TASS API**, although this is the current scope of the tutorial, this README will be updated with progress.
 
 # Versioning
 We use SemVer for versioning. For the versions available, see the tags on this repository. You can keep up to date with release information in the [RELEASES](https://github.com/TASS-AI/TASS-Android-UI/blob/master/RELEASES.md "RELEASES") document.
