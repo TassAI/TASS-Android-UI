@@ -44,13 +44,16 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textColorPrimary">
+                android:textColorHint="@color/textColorPrimary">
 
                 <AutoCompleteTextView
                     android:id="@+id/appId"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text=""
                     android:hint="@string/prompt_appId"
+                    android:textColorHint="@color/textColorPrimary"
+                    android:textColor="@color/textColorPrimary"
                     android:inputType="text"
                     android:maxLines="1"
                     android:singleLine="true" />
@@ -63,10 +66,13 @@
                 android:textColorHint="@color/textColorPrimary">
 
                 <EditText
-                    android:id="@+id/appPublic"
+                    android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/prompt_appPublic"
+                    android:text=""
+                    android:hint="@string/prompt_username"
+                    android:textColorHint="@color/textColorPrimary"
+                    android:textColor="@color/textColorPrimary"
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:singleLine="true" />
@@ -79,10 +85,13 @@
                 android:textColorHint="@color/textColorPrimary">
 
                 <EditText
-                    android:id="@+id/appPrivate"
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/prompt_appPrivate"
+                    android:text=""
+                    android:hint="@string/prompt_password"
+                    android:textColorHint="@color/textColorPrimary"
+                    android:textColor="@color/textColorPrimary"
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:singleLine="true" />

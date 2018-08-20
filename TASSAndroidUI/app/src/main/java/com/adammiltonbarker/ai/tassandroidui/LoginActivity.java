@@ -16,17 +16,11 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.inputmethod.EditorInfo;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.adammiltonbarker.ai.tassandroidui.Classes.Speech;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -44,7 +38,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * A login screen that offers login via email/password.
+ * A login screen that requiring iotJumpWay application MQTT credentials.
  */
 public class LoginActivity extends AppCompatActivity {
 
@@ -89,8 +83,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     /**
-     * Attempts to sign in or register the account specified by the login form.
-     * If there are form errors (invalid email, missing fields, etc.), the
+     * If there are form errors (invalid App ID, MQTT password, etc.), the
      * errors are presented and no actual login attempt is made.
      */
     private void attemptLogin() {
@@ -183,7 +176,7 @@ public class LoginActivity extends AppCompatActivity {
 
     /**
      * Represents an asynchronous login/registration task used to authenticate
-     * the user.
+     * the application.
      */
     public class AppLoginTask extends AsyncTask<Void, Void, Boolean> {
 
