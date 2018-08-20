@@ -3,8 +3,8 @@
 
     <!-- Strings related to login -->
     <string name="prompt_appId">App ID is required</string>
-    <string name="prompt_appPublic">App Public Key is required</string>
-    <string name="prompt_appPrivate">App Private Key is required</string>
+    <string name="prompt_username">App MQTT user is required</string>
+    <string name="prompt_password">App MQTT password is required</string>
 
     <string name="action_sign_in">Connect With iotJumpWay</string>
     <string name="action_sign_in_short">Connect</string>
