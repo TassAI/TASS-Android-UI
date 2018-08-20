@@ -27,7 +27,7 @@ The following steps provide the scope of this tutorial:
 
 [![TASS Android UI](images/iotJumpWay-Applications.jpg)](https://www.iotjumpway.tech/console/)
 
-First you should create an iotJumpWay application that will provide the login credentials for your Android application. If you have never created an iotJumpWay application you can view the simple process in the [iotJumpWay Application Getting Started tutorial](https://www.iotjumpway.tech/developers/getting-started-applications "iotJumpWay Application Getting Started tutorial"). Keep a note of the credentials provided as you will need them further into the tutorial.
+First you should create an **iotJumpWay** application that will provide the login credentials for your Android application. If you have never created an iotJumpWay application you can view the simple process in the [iotJumpWay Application Getting Started tutorial](https://www.iotjumpway.tech/developers/getting-started-applications "iotJumpWay Application Getting Started tutorial"). Keep a note of the credentials provided as you will need them further into the tutorial, specifically you will need the **Application ID**, **MQTT Username** & **MQTT Password**.
 
 # Clone The TASS Android UI Project
 
@@ -36,6 +36,8 @@ You will need to clone this repository to a location on your development termina
     $ git clone https://github.com/TASS-AI/TASS-Android-UI.git
 
 Once you have the repo, you will need to find the files in this folder located in [TASS-Android-UI](https://github.com/TASS-AI/TASS-Android-UI "TASS-Android-UI").
+
+Once the application has opened up, you can enter your credentials into the login form and submit to the iotJumpWay **TASS API**, although this is the current scope of the tutorial, this README will be updated with progress as and when.
 
 # Start Android Application
 
